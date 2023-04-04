@@ -1,0 +1,171 @@
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+@media (max-width:800px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+}  
+
+@media (max-width:600px) {
+    .texto2{
+        flex-direction: column;
+    }
+    .texto2 > img {
+        width: 100%;
+    }
+    .chuchu {
+        width: 100%;
+    }
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+.menulogo{
+    display: flex;
+}
+.botaos{
+        display: flex;    
+}
+.botaos>li{
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.botaos>li >a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+.botaos> li:hover{
+    background-color: rgb(160, 244, 244);
+}
+.botao{
+    color: black;
+    padding: 15px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    margin: 6px;
+}
+.botao1{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    margin: 6px;
+    background-color: black;
+}
+.botao:hover{
+    background-color: rgb(151, 225, 219);}
+.botao1:hover{
+    background-color:  rgb(138, 216, 206);
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 100%;
+}
+.texto{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(175, 249, 224);
+    margin: 60px;
+    padding: 5px;
+    text-align: center;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 249, 224);
+    text-align: center;
+}
+.texto2>img{
+    width: 50%;
+}
+.chuchu{
+    width: 50%;
+    padding: 50px;
+}
+.botao3{
+    color: black;
+    padding: 15px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    margin: 6px;
+    
+}
+.botao3:hover{
+    background-color: rgb(151, 225, 219);
+}
+.texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 249, 224);
+    margin: 25px;
+    text-align: center;
+}
+.rayssa{
+    width: 50%;
+    padding: 50px;
+}
+.texto3>img{
+    width: 50%;
+}
+footer{
+    box-shadow: 0 -3px #888888;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.final{
+    text-align: center;
+}
+footer .infos{
+    display: flex;
+    margin: auto;
+}
+footer .infos ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+footer .icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+footer .icons li{
+    margin-left: 20px;
+}
+footer .politicasflex{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+
+

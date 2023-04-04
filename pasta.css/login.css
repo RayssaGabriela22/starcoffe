@@ -1,0 +1,99 @@
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.menulogo{
+    display: flex;
+}
+.botaos{
+        display: flex;    
+}
+.botaos>li{
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.botaos>li >a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+.botaos> li:hover{
+    background-color: rgb(160, 244, 244);
+}
+.botao{
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    background-color: green;
+
+}
+.botao1{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    margin: 6px;
+    background-color: black;
+}
+.botao:hover{
+    background-color: rgb(151, 225, 219);}
+.botao1:hover{
+    background-color:  rgb(138, 216, 206);
+}
+.img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.localizacao{
+width: 30px;
+height: 30px;
+}
+.locali{
+    padding: 10px;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.texto2>div{
+    width: 50%;
+}
+.chuchu{
+    background-color: #e6e5e5;
+    box-shadow: -5px 0 10px #888888;
+}
+p{
+    color: rgb(2, 194, 43);
+}
+input{
+    margin: 20px;
+}
+.botaos{
+    display: flex;    
+}
+.botaos>li{
+height:60px;
+display: flex;
+align-items: center;
+}
+.botaos>li >a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding-left: 10px;
+padding-right: 10px;
+font-weight: 400;}

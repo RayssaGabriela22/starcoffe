@@ -15,7 +15,7 @@
 
 @media (max-width:600px) {
     .texto2{
-        flex-direction: column;
+        flex-direction: col;
     }
     .texto2 > img {
         width: 100%;
